@@ -1,0 +1,4 @@
+row_number,issue,raw_data
+4,duplicate_record,"{""order_date"": ""2026/06/03"", ""order_id"": ""WEB-1003"", ""quantity"": ""10"", ""sku"": ""SKU-003"", ""unit_price"": ""44.20""}"
+5,invalid_quantity,"{""order_date"": ""2026-06-04"", ""order_id"": ""WEB-1004"", ""quantity"": ""bad"", ""sku"": ""SKU-004"", ""unit_price"": ""91""}"
+6,missing_order_id,"{""order_date"": ""2026-06-05"", ""order_id"": """", ""quantity"": ""1"", ""sku"": ""SKU-005"", ""unit_price"": ""20""}"

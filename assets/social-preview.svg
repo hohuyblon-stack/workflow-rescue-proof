@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Workflow rescue proof preview</title>
+  <desc id="desc">Synthetic workflow rescue preview showing validation, exceptions, logs, and handoff artifacts.</desc>
+  <rect width="1200" height="630" fill="#f4f7fb"/>
+  <rect x="54" y="54" width="1092" height="522" rx="24" fill="#ffffff" stroke="#d7dee7" stroke-width="2"/>
+  <rect x="54" y="54" width="1092" height="92" rx="24" fill="#132238"/>
+  <rect x="54" y="124" width="1092" height="22" fill="#132238"/>
+  <circle cx="102" cy="100" r="12" fill="#58d68d"/>
+  <circle cx="142" cy="100" r="12" fill="#ffd166"/>
+  <circle cx="182" cy="100" r="12" fill="#ef476f"/>
+  <text x="230" y="112" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Workflow Rescue Proof Kit</text>
+
+  <text x="94" y="220" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#17202a">One fragile workflow.</text>
+  <text x="94" y="282" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#17202a">One reviewable rescue.</text>
+  <text x="96" y="334" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#59636f">Synthetic proof: validation, exceptions, logs, report artifacts.</text>
+
+  <g transform="translate(94 386)">
+    <rect width="208" height="112" rx="14" fill="#eef4ff" stroke="#b9ccff"/>
+    <text x="24" y="44" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1f5eff">CLEANED ROWS</text>
+    <text x="24" y="88" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#17202a">5</text>
+  </g>
+  <g transform="translate(326 386)">
+    <rect width="208" height="112" rx="14" fill="#fff7df" stroke="#e5c76d"/>
+    <text x="24" y="44" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#996c00">EXCEPTIONS</text>
+    <text x="24" y="88" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#17202a">3</text>
+  </g>
+  <g transform="translate(558 386)">
+    <rect width="208" height="112" rx="14" fill="#eaf7f1" stroke="#9ed8bd"/>
+    <text x="24" y="44" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#197a50">ARTIFACTS</text>
+    <text x="24" y="88" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#17202a">5</text>
+  </g>
+
+  <g transform="translate(820 190)">
+    <rect width="260" height="276" rx="16" fill="#17202a"/>
+    <rect x="24" y="28" width="212" height="18" rx="5" fill="#58d68d"/>
+    <rect x="24" y="68" width="170" height="14" rx="4" fill="#d7dee7"/>
+    <rect x="24" y="101" width="212" height="14" rx="4" fill="#d7dee7"/>
+    <rect x="24" y="134" width="118" height="14" rx="4" fill="#ffd166"/>
+    <rect x="24" y="174" width="212" height="1" fill="#59636f"/>
+    <text x="24" y="218" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Failure map</text>
+    <text x="24" y="248" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Logs</text>
+  </g>
+
+  <text x="94" y="544" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#59636f">No fake client metrics. No private data. Client-owned production accounts.</text>
+</svg>

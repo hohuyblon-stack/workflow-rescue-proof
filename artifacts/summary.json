@@ -1,0 +1,12 @@
+{
+  "cleaned_records": 5,
+  "demo_label": "Synthetic browser/local reporting demo. No client or Odoo data.",
+  "duplicate_records": 1,
+  "exception_records": 3,
+  "low_stock_alerts": 2,
+  "malformed_records": 2,
+  "management_summary": "Validated 5 usable records, rejected 3 issue records, and produced synthetic revenue of 2401.00.",
+  "total_revenue": 2401.0,
+  "unique_orders": 5,
+  "unusual_movement_alerts": 0
+}

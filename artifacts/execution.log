@@ -1,0 +1,8 @@
+run started: synthetic reporting demo
+loaded rows: orders=8, inventory=6
+temporary source failure on attempt 1: synthetic 429 rate limit
+fetched API-like inventory source on attempt 2
+validated and normalized inventory source
+validated schema, normalized fields, and detected duplicates
+calculated KPIs and alert list
+run complete

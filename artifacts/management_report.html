@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Synthetic Management Report</title>
+  <style>
+    body{font-family:Arial,sans-serif;line-height:1.5;margin:2rem;color:#17202a}
+    table{border-collapse:collapse;width:100%;margin:1rem 0}
+    th,td{border:1px solid #ccd;padding:.5rem;text-align:left}
+    th{background:#eef3f8}
+    .note{background:#fff8df;padding:.75rem;border-left:4px solid #c78900}
+  </style>
+</head>
+<body>
+  <h1>Synthetic Management Report</h1>
+  <p class="note">Demonstration only. Uses synthetic/recreated data and no confidential Odoo or client data.</p>
+  <h2>Summary</h2>
+  <p>Validated 5 usable records, rejected 3 issue records, and produced synthetic revenue of 2401.00.</p>
+  <ul>
+    <li>Cleaned records: 5</li>
+    <li>Exception records: 3</li>
+    <li>Total synthetic revenue: 2401.00</li>
+    <li>Low-stock alerts: 2</li>
+  </ul>
+  <h2>Cleaned Orders</h2>
+  <table><thead><tr><th>order_id</th><th>order_date</th><th>sku</th><th>quantity</th><th>unit_price</th><th>revenue</th><th>stock_on_hand</th><th>reorder_point</th><th>low_stock</th><th>unusual_movement</th></tr></thead><tbody><tr><td>WEB-1001</td><td>2026-06-01</td><td>SKU-001</td><td>2</td><td>120.50</td><td>241.00</td><td>4</td><td>6</td><td>true</td><td>false</td></tr>
+<tr><td>WEB-1002</td><td>2026-06-02</td><td>SKU-002</td><td>5</td><td>75.00</td><td>375.00</td><td>22</td><td>10</td><td>false</td><td>false</td></tr>
+<tr><td>WEB-1003</td><td>2026-06-03</td><td>SKU-003</td><td>10</td><td>44.20</td><td>442.00</td><td>8</td><td>12</td><td>true</td><td>false</td></tr>
+<tr><td>WEB-1005</td><td>2026-06-06</td><td>SKU-006</td><td>4</td><td>275.00</td><td>1100.00</td><td>19</td><td>7</td><td>false</td><td>false</td></tr>
+<tr><td>WEB-1006</td><td>2026-06-07</td><td>SKU-002</td><td>3</td><td>81.00</td><td>243.00</td><td>22</td><td>10</td><td>false</td><td>false</td></tr></tbody></table>
+  <h2>Exceptions</h2>
+  <table><thead><tr><th>row_number</th><th>issue</th><th>raw_data</th></tr></thead><tbody><tr><td>4</td><td>duplicate_record</td><td>{&quot;order_date&quot;: &quot;2026/06/03&quot;, &quot;order_id&quot;: &quot;WEB-1003&quot;, &quot;quantity&quot;: &quot;10&quot;, &quot;sku&quot;: &quot;SKU-003&quot;, &quot;unit_price&quot;: &quot;44.20&quot;}</td></tr>
+<tr><td>5</td><td>invalid_quantity</td><td>{&quot;order_date&quot;: &quot;2026-06-04&quot;, &quot;order_id&quot;: &quot;WEB-1004&quot;, &quot;quantity&quot;: &quot;bad&quot;, &quot;sku&quot;: &quot;SKU-004&quot;, &quot;unit_price&quot;: &quot;91&quot;}</td></tr>
+<tr><td>6</td><td>missing_order_id</td><td>{&quot;order_date&quot;: &quot;2026-06-05&quot;, &quot;order_id&quot;: &quot;&quot;, &quot;quantity&quot;: &quot;1&quot;, &quot;sku&quot;: &quot;SKU-005&quot;, &quot;unit_price&quot;: &quot;20&quot;}</td></tr></tbody></table>
+</body>
+</html>

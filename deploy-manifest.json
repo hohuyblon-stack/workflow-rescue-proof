@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-06-23T03:39:02+00:00",
+  "source": "/Users/huyho/Documents/$$$/site/dist",
+  "publish_directory": "/Users/huyho/Documents/$$$/build/public-site",
+  "safety_note": "Public-only static proof package. Do not add ops, sales, research, config, credentials, or lead data.",
+  "files": [
+    {
+      "path": "app.js",
+      "bytes": 6636,
+      "sha256": "b266ed80ebea7ba8bc3c0d99b52cc4b0a00d4ccd93da63b053bd8b373bbe9601"
+    },
+    {
+      "path": "artifacts/cleaned_orders.csv",
+      "bytes": 410,
+      "sha256": "35bbf1340d33b0bb38da35f4525a6af0e98f41a2f1635ce18552c1eaab4f69a7"
+    },
+    {
+      "path": "artifacts/exceptions.csv",
+      "bytes": 471,
+      "sha256": "c66a83f9804acf3aec7c3566b562e8ff11e536f70a7be18b25c5269678b1fa86"
+    },
+    {
+      "path": "artifacts/execution.log",
+      "bytes": 331,
+      "sha256": "f98fc7d981c678c3e4526763b416deee16c56675db251f15392a095b441103bb"
+    },
+    {
+      "path": "artifacts/management_report.html",
+      "bytes": 2837,
+      "sha256": "b25cd1ecc9aade53ebe4153a90747121550ae0854778e7472c67587f7602fd8a"
+    },
+    {
+      "path": "artifacts/summary.json",
+      "bytes": 418,
+      "sha256": "7ad57cd094a066aa40cfd3a76ff579ef30257ed65aeca3da7bc03159758ff14a"
+    },
+    {
+      "path": "assets/social-preview.png",
+      "bytes": 86626,
+      "sha256": "a3deec1f90a18f6134ef7e05f3f57901bb6fd6fecbc84d95e5a23da58181183b"
+    },
+    {
+      "path": "assets/social-preview.svg",
+      "bytes": 3407,
+      "sha256": "b20ccd39d23df9822571f8723653819d03c4a1bcae99937090a8cf759f8c0ab7"
+    },
+    {
+      "path": "capability.html",
+      "bytes": 6946,
+      "sha256": "9f0d4222e03fb11e125f80ab39979d8a088bddbb80083a8da6e9e49567457057"
+    },
+    {
+      "path": "index.html",
+      "bytes": 9356,
+      "sha256": "aa335ff7a70fbf1af3266a8c342413d1129ddaceea54582a6905ea5e5a60739c"
+    },
+    {
+      "path": "proof.html",
+      "bytes": 8528,
+      "sha256": "19bea3971bc96a2c39be8e467a0e78539175ad6bf2724888881db596cc7c82d6"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 5639,
+      "sha256": "387a73b7df0970898a35b34fa43620774cddce95f3931ad2d2c2231fab030d01"
+    }
+  ]
+}

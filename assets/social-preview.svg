@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Workflow rescue proof preview</title>
-  <desc id="desc">Synthetic workflow rescue preview showing validation, exceptions, logs, and handoff artifacts.</desc>
+  <title id="title">Product inventory lookup proof preview</title>
+  <desc id="desc">Synthetic product inventory lookup proof showing validation, exceptions, logs, and handoff artifacts.</desc>
   <rect width="1200" height="630" fill="#f4f7fb"/>
   <rect x="54" y="54" width="1092" height="522" rx="24" fill="#ffffff" stroke="#d7dee7" stroke-width="2"/>
   <rect x="54" y="54" width="1092" height="92" rx="24" fill="#132238"/>
@@ -8,11 +8,11 @@
   <circle cx="102" cy="100" r="12" fill="#58d68d"/>
   <circle cx="142" cy="100" r="12" fill="#ffd166"/>
   <circle cx="182" cy="100" r="12" fill="#ef476f"/>
-  <text x="230" y="112" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Workflow Rescue Proof Kit</text>
+  <text x="230" y="112" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Product Inventory Lookup Proof</text>
 
-  <text x="94" y="220" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#17202a">One fragile workflow.</text>
-  <text x="94" y="282" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#17202a">One reviewable rescue.</text>
-  <text x="96" y="334" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#59636f">Synthetic proof: validation, exceptions, logs, report artifacts.</text>
+  <text x="94" y="220" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#17202a">Live lookup.</text>
+  <text x="94" y="282" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#17202a">Reviewable handoff.</text>
+  <text x="96" y="334" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#59636f">Synthetic proof: stock, fit, validation, exceptions, logs.</text>
 
   <g transform="translate(94 386)">
     <rect width="208" height="112" rx="14" fill="#eef4ff" stroke="#b9ccff"/>
@@ -41,5 +41,5 @@
     <text x="24" y="248" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#ffffff">Logs</text>
   </g>
 
-  <text x="94" y="544" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#59636f">No fake client metrics. No private data. Client-owned production accounts.</text>
+  <text x="94" y="544" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#59636f">No fake metrics. No private data. Client-owned accounts.</text>
 </svg>

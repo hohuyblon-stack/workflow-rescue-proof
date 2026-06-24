@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T03:39:02+00:00",
+  "generated_at": "2026-06-24T12:24:18+00:00",
   "source": "/Users/huyho/Documents/$$$/site/dist",
   "publish_directory": "/Users/huyho/Documents/$$$/build/public-site",
   "safety_note": "Public-only static proof package. Do not add ops, sales, research, config, credentials, or lead data.",
@@ -35,34 +35,59 @@
       "sha256": "7ad57cd094a066aa40cfd3a76ff579ef30257ed65aeca3da7bc03159758ff14a"
     },
     {
+      "path": "assets/proof/odoo-agent-proof-desktop.png",
+      "bytes": 705205,
+      "sha256": "61ce174d42a0c4b0016ea2e29822cfc98bb7e798b32303d098e6c4da05a2c95b"
+    },
+    {
+      "path": "assets/proof/odoo-agent-proof-mobile.png",
+      "bytes": 680455,
+      "sha256": "3fa706bd0201cee19693ec4875fd8d7a0bbc4492581e936c8f03da55e00c4c9d"
+    },
+    {
+      "path": "assets/proof/odoo-agent-proof-video-poster.png",
+      "bytes": 77286,
+      "sha256": "8ea4ef62b95f389a45b565e7c0e9500dd251642767f45251638988bc340278ec"
+    },
+    {
+      "path": "assets/proof/odoo-agent-proof-video.mp4",
+      "bytes": 1020995,
+      "sha256": "d7fdd15ca30a7713af82d7a6dac1ae8dbafe0cf2d88fb0439fbd93a50e66404e"
+    },
+    {
       "path": "assets/social-preview.png",
-      "bytes": 86626,
-      "sha256": "a3deec1f90a18f6134ef7e05f3f57901bb6fd6fecbc84d95e5a23da58181183b"
+      "bytes": 81047,
+      "sha256": "b831bf66e8d4ec11661b2a7989b746b57777f1753e87dc45ed716e2bb3410853"
     },
     {
       "path": "assets/social-preview.svg",
-      "bytes": 3407,
-      "sha256": "b20ccd39d23df9822571f8723653819d03c4a1bcae99937090a8cf759f8c0ab7"
+      "bytes": 3392,
+      "sha256": "fce489763d52f1b384836c0f9c88739ca43f2267c64bd51ee47a104191e1eb2f"
     },
     {
       "path": "capability.html",
-      "bytes": 6946,
-      "sha256": "9f0d4222e03fb11e125f80ab39979d8a088bddbb80083a8da6e9e49567457057"
+      "bytes": 7326,
+      "sha256": "f30a4546205d1b503864a988f242ae52a159d9aa6c8a7597d17f6c5d94b2a830"
     },
     {
       "path": "index.html",
-      "bytes": 9356,
-      "sha256": "aa335ff7a70fbf1af3266a8c342413d1129ddaceea54582a6905ea5e5a60739c"
+      "bytes": 9466,
+      "sha256": "dad93dad2f97c25e282dc43603fb1767d7ad3761bb495a1960e5c15d21e3628a"
+    },
+    {
+      "path": "odoo-agent-proof.html",
+      "bytes": 12418,
+      "sha256": "6771014fefe70dc6631af898fe4cdaac7ccbdb0c4899655bdaa59e7cdeace5c9"
     },
     {
       "path": "proof.html",
-      "bytes": 8528,
-      "sha256": "19bea3971bc96a2c39be8e467a0e78539175ad6bf2724888881db596cc7c82d6"
+      "bytes": 8851,
+      "sha256": "aa0fd1395fbcce4460125044d35c14bce2dea03d0dd4bf17a2bbfdda55d24b9c"
     },
     {
       "path": "styles.css",
-      "bytes": 5639,
-      "sha256": "387a73b7df0970898a35b34fa43620774cddce95f3931ad2d2c2231fab030d01"
+      "bytes": 8811,
+      "sha256": "f223ec910cd31d18696e15afee14acb6f0bf3950946f08c5eb32cf8f6ba17daf"
     }
   ]
 }

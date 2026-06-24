@@ -276,6 +276,203 @@ h2 {
   margin-bottom: .35rem;
 }
 
+.live-proof-hero {
+  min-height: 62vh;
+}
+
+.agent-flow,
+.search-proof {
+  display: grid;
+  gap: 1rem;
+}
+
+.agent-flow {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.agent-flow article,
+.search-result,
+.chat-panel,
+.data-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.agent-flow article,
+.search-result {
+  padding: 1rem;
+}
+
+.agent-flow strong,
+.agent-flow span,
+.search-result strong,
+.search-result span {
+  display: block;
+}
+
+.agent-flow strong,
+.search-result strong {
+  margin-bottom: .35rem;
+}
+
+.live-proof-screen {
+  display: grid;
+  grid-template-columns: minmax(260px, .65fr) minmax(0, 1.35fr);
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.chat-panel {
+  background: var(--soft);
+  padding: 1rem;
+}
+
+.chat-row {
+  border-radius: 8px;
+  padding: .85rem;
+  margin-bottom: .75rem;
+}
+
+.chat-row.user {
+  background: #fff;
+  border-left: 4px solid var(--blue);
+}
+
+.chat-row.agent {
+  background: #eef7f1;
+  border-left: 4px solid var(--green);
+}
+
+.chat-row.system {
+  background: #fff7e2;
+  border-left: 4px solid var(--amber);
+  color: var(--muted);
+  font-size: .95rem;
+}
+
+.data-panel {
+  padding: 1rem;
+}
+
+.status {
+  display: inline-block;
+  border-radius: 999px;
+  padding: .18rem .5rem;
+  font-weight: 700;
+  font-size: .8rem;
+}
+
+.status.ok {
+  color: #0c5f3b;
+  background: #e4f5ec;
+}
+
+.status.warn {
+  color: #735000;
+  background: #fff2c7;
+}
+
+.status.risk {
+  color: #8c2323;
+  background: #fde8e8;
+}
+
+.search-proof {
+  max-width: 900px;
+}
+
+.media-proof {
+  display: grid;
+  grid-template-columns: minmax(280px, .78fr) minmax(0, 1.22fr);
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.proof-video {
+  width: 100%;
+  background: #0f172a;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  aspect-ratio: 16 / 9;
+}
+
+.asset-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin-top: 1rem;
+}
+
+.architecture-flow {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: .75rem;
+  counter-reset: architecture-step;
+}
+
+.architecture-flow article {
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  padding: 1rem;
+  min-height: 9rem;
+}
+
+.architecture-flow article::before {
+  counter-increment: architecture-step;
+  content: counter(architecture-step);
+  display: inline-grid;
+  place-items: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  background: var(--ink);
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: .7rem;
+}
+
+.architecture-flow strong,
+.architecture-flow span {
+  display: block;
+}
+
+.architecture-flow strong {
+  margin-bottom: .35rem;
+}
+
+.proof-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.proof-links article {
+  border-left: 4px solid var(--blue);
+  background: var(--soft);
+  padding: 1rem;
+}
+
+.proof-links strong,
+.proof-links code {
+  display: block;
+}
+
+.proof-links strong {
+  margin-bottom: .4rem;
+}
+
+.search-box {
+  border: 2px solid var(--blue);
+  border-radius: 8px;
+  background: #fff;
+  padding: .9rem 1rem;
+  font-weight: 700;
+}
+
 .demo-section {
   max-width: 1280px;
 }
@@ -365,6 +562,11 @@ footer {
   .hero,
   .section-grid,
   .demo-layout,
+  .media-proof,
+  .agent-flow,
+  .architecture-flow,
+  .live-proof-screen,
+  .proof-links,
   .cards,
   .steps,
   .workflow-list,

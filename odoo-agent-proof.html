@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Huy Ho | Odoo Live Data Agent Proof</title>
+  <meta name="description" content="Synthetic recreated proof storyboard for Odoo API live product lookup, AI-agent support, customer product search, inventory visibility, and demand-planning handoff.">
+  <meta property="og:image" content="https://hohuyblon-stack.github.io/workflow-rescue-proof/assets/social-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://hohuyblon-stack.github.io/workflow-rescue-proof/assets/social-preview.png">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html">Huy Ho</a>
+      <div class="nav-actions">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="proof.html">Report Proof</a>
+        <a class="nav-link" href="capability.html">Capability</a>
+        <a class="nav-link" href="mailto:hohuyblon@gmail.com">Email</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="proof-hero live-proof-hero">
+      <p class="eyebrow">Synthetic/recreated proof storyboard</p>
+      <h1>Odoo live product data, AI-agent lookup, and customer product search.</h1>
+      <p class="lead">
+        This storyboard shows the workflow shape behind the CV claim: a sales assistant or search surface fetches current product and inventory data, exposes exceptions, and helps teams sell from live facts instead of memorized product knowledge.
+      </p>
+      <div class="proof-warning">
+        Recreated proof only. No client data, private Odoo data, production screenshots, revenue result, ROI, independently measured hours-saved metric, or testimonial is used here.
+      </div>
+    </section>
+
+    <section class="media-proof">
+      <div>
+        <p class="eyebrow">Proof video</p>
+        <h2>25-second proof walkthrough</h2>
+        <p class="lead">
+          A short silent walkthrough for applications: the problem, the live-data lookup pattern, the product-search surface, and the safe claim boundary.
+        </p>
+        <div class="asset-actions">
+          <a class="button primary" href="assets/proof/odoo-agent-proof-video.mp4">Open MP4</a>
+          <a class="button secondary" href="assets/proof/odoo-agent-proof-desktop.png">Open desktop screenshot</a>
+          <a class="button secondary" href="assets/proof/odoo-agent-proof-mobile.png">Open mobile screenshot</a>
+        </div>
+      </div>
+      <video class="proof-video" controls preload="metadata" poster="assets/proof/odoo-agent-proof-video-poster.png">
+        <source src="assets/proof/odoo-agent-proof-video.mp4" type="video/mp4">
+        <a href="assets/proof/odoo-agent-proof-video.mp4">Download the proof video.</a>
+      </video>
+    </section>
+
+    <section class="band">
+      <div class="section-grid">
+        <article>
+          <h2>Business Problem</h2>
+          <p>Product and stock knowledge changes faster than a sales team can memorize it.</p>
+          <ul>
+            <li>Sales answers depend on product availability, variants, and stock status.</li>
+            <li>Training time increases when product knowledge sits in people's heads.</li>
+            <li>Customers need clearer access to product data before paying or ordering.</li>
+          </ul>
+        </article>
+        <article>
+          <h2>Technical Shape</h2>
+          <p>A live-data path keeps the answer grounded in the source system.</p>
+          <ul>
+            <li>Sales assistant receives a product, stock, price, or symptom-based question.</li>
+            <li>Read-only Odoo lookup returns product, category, stock, and availability fields.</li>
+            <li>Customer-facing search can expose useful product status while private fields stay protected.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Evidence Boundary</h2>
+      <div class="scorecard">
+        <article>
+          <strong>Private repo evidence</strong>
+          <span>Implementation evidence was checked locally: live Odoo lookup, read-only connector, chat endpoint, session context, quantity checks, and AI reply guardrails.</span>
+        </article>
+        <article>
+          <strong>Tested behavior</strong>
+          <span>The related local sales-bot test suite was rerun successfully with 171 unit tests.</span>
+        </article>
+        <article>
+          <strong>Public proof</strong>
+          <span>This page, screenshots, and video are recreated to show the workflow without exposing private Odoo rows, prices, stock, or customer data.</span>
+        </article>
+        <article>
+          <strong>Owner-reported impact</strong>
+          <span>Product lookup/support is estimated by the owner to be about 4x faster; this is not presented as independently measured analytics.</span>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Architecture Contract</h2>
+      <p class="lead">This is the implementation shape a reviewer should judge, not a claim of a hidden production screenshot.</p>
+      <div class="architecture-flow" aria-label="Odoo live-data agent architecture">
+        <article><strong>User question</strong><span>Product fit, stock, or substitute request.</span></article>
+        <article><strong>Agent guardrail</strong><span>Clarify intent, use read-only lookup, surface caveats.</span></article>
+        <article><strong>Odoo API</strong><span>Fetch product, inventory, category, and availability fields.</span></article>
+        <article><strong>Answer/search</strong><span>Return grounded result, low-stock warning, and handoff note.</span></article>
+        <article><strong>Review log</strong><span>Keep lookup assumptions and exceptions visible.</span></article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Agent Lookup Flow</h2>
+      <div class="agent-flow">
+        <article>
+          <strong>1. Ask</strong>
+          <span>Can we recommend a low-stock industrial filter for a customer who needs replacement this week?</span>
+        </article>
+        <article>
+          <strong>2. Fetch</strong>
+          <span>Odoo API lookup by SKU, OEM code, category, or parsed customer intent returns product facts and stock caveats.</span>
+        </article>
+        <article>
+          <strong>3. Answer</strong>
+          <span>Sales gets a grounded answer plus caveats: missing price, low stock, out of stock, or confirm final quantity before quote.</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="demo-section">
+      <h2>Recreated Screen: Live Product Agent</h2>
+      <div class="live-proof-screen">
+        <aside class="chat-panel">
+          <div class="chat-row user">Find a suitable replacement filter with stock available this week.</div>
+          <div class="chat-row agent">
+            I found two relevant items. SKU APD-FLT-204 has 18 units available and normal lead time.
+            SKU APD-FLT-211 is low stock with 4 units and should be confirmed before quoting.
+          </div>
+          <div class="chat-row system">Source: Odoo API product + inventory fields. Recreated data.</div>
+        </aside>
+        <section class="data-panel" aria-label="Recreated Odoo product lookup table">
+          <table>
+            <thead>
+              <tr>
+                <th>SKU</th>
+                <th>Product</th>
+                <th>Stock</th>
+                <th>Status</th>
+                <th>Sales note</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>APD-FLT-204</td>
+                <td>Industrial filter cartridge</td>
+                <td>18</td>
+                <td><span class="status ok">Available</span></td>
+                <td>Good replacement candidate.</td>
+              </tr>
+              <tr>
+                <td>APD-FLT-211</td>
+                <td>High-flow filter cartridge</td>
+                <td>4</td>
+                <td><span class="status warn">Low stock</span></td>
+                <td>Confirm before quote.</td>
+              </tr>
+              <tr>
+                <td>APD-VLV-108</td>
+                <td>Valve service kit</td>
+                <td>0</td>
+                <td><span class="status risk">Out</span></td>
+                <td>Offer lead-time or substitute.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </section>
+
+    <section class="band">
+      <h2>Customer Product Search Direction</h2>
+      <div class="search-proof">
+        <div class="search-box">Search: brake light bulb for Morning</div>
+        <div class="search-result">
+          <strong>APD-BULB-204 - Headlamp bulb</strong>
+          <span>Available now. Customer-visible product data can include category, fit notes, stock status, and quote caveats.</span>
+        </div>
+        <div class="search-result">
+          <strong>APD-BULB-211 - Low-beam bulb</strong>
+          <span>Low stock. Customer access can show clearer status while protecting private business fields.</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>What This Proves</h2>
+      <div class="scorecard">
+        <article>
+          <strong>Live data over memorization</strong>
+          <span>Product answers can be grounded in current Odoo product and inventory data.</span>
+        </article>
+        <article>
+          <strong>Sales enablement</strong>
+          <span>Sales can focus on buyer questions and fit instead of memorizing changing product details.</span>
+        </article>
+        <article>
+          <strong>Inventory transparency</strong>
+          <span>Low-stock and out-of-stock cases become visible in the answer, search, or handoff notes.</span>
+        </article>
+        <article>
+          <strong>Demand planning</strong>
+          <span>Search and stock signals can support demand-planning review without claiming a forecasting model.</span>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Use In Applications</h2>
+      <p class="lead">
+        Short version: I built and tested sales-assistant workflows for a 150-person, market-leading auto-parts distributor, connected to live Odoo product/inventory data with read-only lookup, Vietnamese customer-intent parsing, product/stock/price caveats, and safe AI reply boundaries. Public proof is recreated and anonymized.
+      </p>
+      <div class="proof-links">
+        <article>
+          <strong>Public proof target after deploy</strong>
+          <code>https://hohuyblon-stack.github.io/workflow-rescue-proof/odoo-agent-proof.html</code>
+        </article>
+        <article>
+          <strong>Video target after deploy</strong>
+          <code>https://hohuyblon-stack.github.io/workflow-rescue-proof/assets/proof/odoo-agent-proof-video.mp4</code>
+        </article>
+      </div>
+      <div class="steps">
+        <article><strong>Safe claim</strong><span>Live product lookup, inventory visibility, product search direction, validation, tests, and handoff.</span></article>
+        <article><strong>Do not claim yet</strong><span>Measured hours saved, ROI, client names, private screenshots, paid-access launch, or production scale.</span></article>
+        <article><strong>Next proof step</strong><span>Record a private Loom over the real system only after confirming screenshots are public-safe.</span></article>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <h2>Need this applied to one workflow?</h2>
+      <p>Send one product-data source, the buyer question, and the desired output. I can scope a small paid live-data lookup or reporting rescue task.</p>
+      <div class="cta-row">
+        <a class="button primary" href="mailto:hohuyblon@gmail.com?subject=Odoo%20live%20data%20agent%20proof">Email Huy Ho</a>
+        <a class="button secondary" href="proof.html">API-to-report proof</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Live Product/Inventory Lookup &amp; Workflow Rescue Contractor. Public proof uses synthetic or recreated data unless approved facts are supplied.</p>
+  </footer>
+</body>
+</html>
